@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+.container {
+  padding: 30px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-container{
+  display: flex;
+}
+
+.header {
+  flex: 2;
+}
+
+.dropzone {
+  flex: 1;
+}
+
+.post {
+    margin-top: 60px;
+}
+
+.meme-container{
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+}
+
+.meme{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 50px;
+  color: #FFA500;
+}
+
+p {
+  font-family: 'Comic Neue', cursive;
+  font-size: 24px;
+  color: #e67a1c;
+}
+
+a:link, a:visited {
+  color: #e031a9;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: #e031a9;
+}
